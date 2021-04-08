@@ -9,3 +9,5 @@
 jdi = Gym.create(name: "JDI Barbell", description: "Powerlifing and Weightlifting Gym", location: "Harlem")
 elite = Gym.create(name: "Elite Barbell", description: "Powerlifting and Bodybuilding gym", location: "Brooklyn")
 midcity = Gym.create(name: "Mid City Gym", description: "dimly lit Body Building gym", location: "Midtown Manhattan")
+
+Comment.create(content: "I love this place!", rating: 10, gym_id: jdi.id)
