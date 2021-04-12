@@ -9,7 +9,7 @@ class Api::V1::GymsController < ApplicationController
         if @gym.save
             render json: @gym, status: :accepted
         else
-            redner json: { errors: @gym.errors.fullmessages }, status: :unprocessible_entity
+            render json: { errors: @gym.errors.full_messages }, status: :unprocessible_entity
         end
     end
 
