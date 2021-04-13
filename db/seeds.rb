@@ -14,3 +14,4 @@ elite = Gym.create(name: "Elite Barbell", description: "Powerlifting and Bodybui
 midcity = Gym.create(name: "Mid City Gym", description: "dimly lit Body Building gym", location: "Midtown Manhattan")
 
 Review.create(content: "I love this place!", rating: 10, gym_id: jdi.id)
+Review.create(content: "Best Gym Ever!", rating: 10, gym_id: jdi.id)
