@@ -1,7 +1,10 @@
 class Api::V1::GymsController < ApplicationController
     def index
         gyms = Gym.all
-        render json: GymSerializer.new(gyms)
+        options = {
+            include: [:reviews]
+        }
+        render json: GymSerializer.new(gyms, options)
     end
 
     def create
