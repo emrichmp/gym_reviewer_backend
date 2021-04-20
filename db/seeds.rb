@@ -15,3 +15,5 @@ midcity = Gym.create(name: "Mid City Gym", description: "dimly lit Body Building
 
 Review.create(content: "I love this place!", rating: 10, gym_id: jdi.id)
 Review.create(content: "Best Gym Ever!", rating: 10, gym_id: jdi.id)
+Review.create(content: "Cool place but far", rating: 10, gym_id: elite.id)
+Review.create(content: "Close and has cool vibes!", rating: 10, gym_id: midcity.id)
