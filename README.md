@@ -4,6 +4,8 @@ To Get Started:
 - To run this API is pretty simple! Donwload the repo and open it up on the editor of your choice! Once on your machine, you just need to run "bundle install" to install all the files from the gem file. After that you should be good to go to start the API w/ "rails s". Once you have the server running you can navigate to the 2 parts of the API:
 - To see all Gyms in JSON: http://localhost:3000/api/v1/gyms
 - To see all Reviews in JSON: http://localhost:3000/api/v1/reviews
+- After this is running you can navigate to the frontend repo to interact with the full app!
+  - https://github.com/emrichmp/gym_reviewer_frontend
 
 Copyright 2021 Emrich-Michael Perrier
 
